@@ -70,7 +70,7 @@ form .btn{
 }
 
 form input{
-    width:75%;
+    /* width:75%; */
     padding:0 15px;
     border-radius:8px;
 }
