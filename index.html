@@ -61,14 +61,16 @@
   </section>
  
   
-  <form action="#" class="container">
-    <input type="text" placeholder="Shorten a link here...">
-    <button class="btn btn-primary">Shorten It!</button>
+  <form action="#" class="container p-absolute z-index-2">
+    <div class="purple-form">
+      <input type="text" placeholder="Shorten a link here...">
+      <button class="btn btn-primary">Shorten It!</button>
+    </div>
   </form>
 
-  <section class="new-section">
+  <section class="new-section p-relative z-index-1 top-70">
     <div class="container">
-      <div class="purple-form">
+      <div class="new-short-link">
         <div class="short-link">
           <p class="mb-0">www.frontendmentor</p>
           <div class="new-link">
@@ -78,7 +80,7 @@
         </div>
       </div>
 
-      <div class="section-heading d-flex flex-column text-center px-5 mx-4 justify-content-center">
+      <div class="section-heading d-flex flex-column text-center px-5 pt-4 mx-4 justify-content-center">
         <h2 class="section-title"> Advanced Statistics</h2>
         <p class="section-txt">
           Track how your links are performing across the web with our 
@@ -86,7 +88,7 @@
         </p>
       </div>
 
-      <div class="card-section z-index-2  p-absolute d-flex flex-column flex-sm-row">
+      <div class="card-section z-index-2 p-absolute d-flex flex-column flex-sm-row">
         <div class="card mx-12 mx-sm-15" id="brand">
           <img src="" alt="" class="icon">
           <div class="white-box">
@@ -114,7 +116,7 @@
           </div>
         </div>
       </div>
-      <div class="blue-line z-index-1 p-relative bottom-30"></div>
+      <div class="blue-line z-index-1 p-relative top-100"></div>
     </div>
   </section>
  
