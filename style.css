@@ -36,11 +36,6 @@ p{
     color: hsl(257, 7%, 63%);
 }
 
-/* #hero-txt{
-    margin-right:15px;
-    padding-right: 20px;
-} */
-
 .hero-title{
     font-size: 3.2rem;
 }
@@ -94,9 +89,9 @@ form input{
     margin-top:100px;
 }
 
-/* .new-short-link{
+.new-short-link{
     display: none;
-} */
+}
 
 .short-link{
     background-color: #fff;
