@@ -53,6 +53,10 @@ p{
     width:50%;
 }
 
+.grey-area{
+    padding:30px 0;
+}
+
 form{
     background: hsl(257, 27%, 26%);
     background-image: url(./images/bg-shorten-desktop.svg);
@@ -74,7 +78,7 @@ form{
     justify-content: center;
 }
 
-form .btn{
+.btn-form{
     color:#fff;
     margin:0 18px;
     width: 12%;
@@ -94,17 +98,22 @@ form input{
     margin-top:100px;
 }
 
-/* .new-short-link{
+.new-short-link{
     display: none;
-} */
+}
 
 .short-link{
+    display: block;
     background-color: #fff;
     margin:32px 0;
-    padding:10px 17px;
+    padding:3px 17px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.api-link{
+    margin-right:35px;
 }
 
 .btn-link .btn{
@@ -188,9 +197,6 @@ form input{
         text-align: center;
     }
 
-    /* .card-section{
-        position: absolute;
-    } */
 
     .logo-icon{
         width:100px;
@@ -206,7 +212,7 @@ form input{
         width:100%;
     }
 
-    form .btn{
+    .btn-form{
         margin:0;
         margin-top:15px;
         width:100%;
@@ -226,5 +232,9 @@ form input{
     .btn-link .btn{
         margin: 0 auto;
         width:100%;
+    }
+
+    .api-link{
+        padding: 0 35px;
     }
 }
