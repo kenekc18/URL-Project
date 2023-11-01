@@ -49,14 +49,23 @@ p{
     width:100px;
 }
 
+#working-img{
+    width:50%;
+}
+
 form{
     background: hsl(257, 27%, 26%);
     background-image: url(./images/bg-shorten-desktop.svg);
     padding:20px 25px;
     margin:20px 0;
     border-radius:8px;
-    /* position: absolute;
-    z-index: 2; */
+   
+}
+
+#p-form{
+    top:-53px;
+    left:50%;
+    transform:translateX(-50%);
 }
 
 .purple-form{
@@ -79,9 +88,7 @@ form input{
     background-color: hsl(0, 0%, 88%);
     min-height: 500px;
     padding: 40px 0;
-    /* position: relative;
-    z-index:1;
-    top:70px; */
+    margin-top:100px;
 }
 
 .new-short-link{
@@ -99,22 +106,58 @@ form input{
 
 .blue-line{
     background-color: hsl(180, 66%, 49%);
-    /* position: relative;
-    z-index:1;
-    top:100px; */
-    width: 100%;
+    width: 90%;
     height:8px;
+    position:absolute;
+    z-index:1;
+    top:50%;
+    left:16px;
 }
 
-/* .card-section{
-    position: absolute;
-    z-index:2;
-} */
+.next-line{
+    background-color: hsl(180, 66%, 49%);
+    width: 8px;
+    height:90%;
+    position:absolute;
+    z-index: 1;
+    left:49%;
+    top:15%;
 
+}
+
+.card-section{
+    margin:25px 0;
+    padding:20px 0;
+}
 
 .card{
+    padding:36px;
+    padding-top:80px;
     margin:0 15px;
-    padding:15px 18px;
+    z-index:100;
+}
+
+.txt-box{
+    padding:30px 0;
+}
+
+
+.logo-icon img{
+    width:48px;
+}
+
+.logo-icon{
+    display: flex;
+    background: hsl(257, 27%, 26%);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 3;
+    left: 36px;
+    top: -30px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -124,17 +167,45 @@ form input{
         width:500px;
     }
 
-    /* #hero-txt{
-        margin:0;
-        padding:0;
-    } */
-
     .btn{
         width:30%;
     }
 
     .card{
+        margin:0;
         margin-top:20px;
+        margin:25px 30px;
+    }
+
+    .txt-box{
+        text-align: center;
+    }
+
+    /* .card-section{
+        position: absolute;
+    } */
+
+    .logo-icon{
+        width:100px;
+        left:36%;
     }
     
+    #p-form{
+        width:80%;
+        top:-78px;
+    }
+
+    #p-form input{
+        width:100%;
+    }
+
+    #p-form .btn{
+        margin:0;
+        margin-top:15px;
+        width:100%;
+    }
+    
+    .grey-area{
+        padding-top:4rem;
+    }
 }
