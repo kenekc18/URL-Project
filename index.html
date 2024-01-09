@@ -37,7 +37,7 @@
             </li>
           </ul>
       </div>
-      <ul class="navbar-new d-lg-flex align-items-center d-none d-sm-block" id="new-nav">
+      <ul class="navbar-new d-lg-flex align-items-center d-none d-lg-block" id="new-nav">
         <li class="nav-right">
           <a href="#" class="new-link">Login</a>
         </li>
@@ -48,9 +48,9 @@
     </section>
   </nav>
 
-  <section class="container hero d-flex flex-column flex-sm-row-reverse">
+  <section class="container hero d-flex flex-column flex-lg-row-reverse">
     <img src="./images/illustration-working.svg" alt="work" class="img-fluid py-4 mx-auto" id="working-img">
-    <div class="hero-txt d-flex py-4 flex-column justify-content-center align-items-center align-items-sm-start text-center text-sm-start" id="hero-txt">
+    <div class="hero-txt d-flex py-4 flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start" id="hero-txt">
       <h1 class="hero-title">More than just <br> shorter links</h1>
 
       <p>Build your brand’s recognition and get detailed insights 
@@ -61,19 +61,19 @@
   </section>
  
   <section class="new-section position-relative">
-    <form action="#" class="container top-70 my-20 mx-sm-auto position-absolute z-index-2" id="p-form">
-      <div class="purple-form mx-15 d-flex flex-column flex-sm-row">
+    <form action="#" class="container top-70 my-20 mx-auto position-absolute z-index-2" id="p-form">
+      <div class="purple-form mx-15 d-flex flex-column flex-lg-row">
         <input type="text" placeholder="Shorten a link here..." id="inputbox">
         <button class="btn btn-form btn-primary">Shorten It!</button>
       </div>
     </form>
   
-    <div class="container grey-area position-relative ">
+    <div class="container grey-area position-relative mt-md-4 ">
       <div class="new-short-link">
-        <div class="short-link">
-          <p class="api-link mb-0"></p>
-          <div class="btn-link">
-            <a href="#" class="old-link"></a>
+        <div class="short-link d-flex flex-column flex-lg-row">
+          <a href="#" class="old-link"></a>
+          <div class="btn-link d-flex flex-column flex-lg-row">
+            <p class="api-link mb-0"></p>
             <button class="btn btn-primary">copy</button>
           </div>
         </div>
@@ -87,13 +87,13 @@
         </p>
       </div>
 
-      <div class="card-section d-flex flex-column flex-sm-row">
+      <div class="card-section d-flex flex-column flex-lg-row">
         <div class="card" id="brand">
           <div class="logo-icon">
             <img src="./images/icon-brand-recognition.svg" alt="" class="icon">
           </div>
           <div class="txt-box">
-            <h4 class="card-title"> Brand Recognition</h4>
+            <h5 class="card-title"> Brand Recognition</h5>
             <p class="card-txt">Boost your brand recognition with each click. Generic links don’t 
               mean a thing. Branded links help instil confidence in your content.
             </p>
@@ -104,7 +104,7 @@
             <img src="./images/icon-detailed-records.svg" alt="" class="icon">
           </div>
           <div class="txt-box">
-            <h4 class="card-title"> Detailed Records</h4>
+            <h5 class="card-title"> Detailed Records</h5>
             <p class="card-txt">Gain insights into who is clicking your links. Knowing when and where 
               people engage with your content helps inform better decisions.
             </p>
@@ -115,41 +115,65 @@
             <img src="./images/icon-fully-customizable.svg" alt="" class="icon">
           </div>
           <div class="txt-box">
-            <h4 class="card-title">Fully Customizable</h4>
+            <h5 class="card-title">Fully Customizable</h5>
             <p class="card-txt">Improve brand awareness and content discoverability through customizable 
               links, supercharging audience engagement.</p>
           </div>
         </div>
-        <div class="blue-line d-none d-sm-block"></div>
-        <div class="next-line d-block d-sm-none"></div>
+        <div class="blue-line d-none d-lg-block"></div>
+        <div class="next-line d-block d-md-block d-lg-none"></div>
       </div>
     </div>
   </section>
- 
 
+  <section class="purple-section d-flex flex-column align-items-center justify-content-center">
+    <h2>Boost your links today </h2>
+    <button class="btn">Get Started</button>
+  </section>
 
-  Boost your links today
-
-  Get Started
-
-  Features
-
-  Link Shortening
-  Branded Links
-  Analytics
-
-  Resources
-
-  Blog
-  Developers
-  Support
-
-  Company
-
-  About
-  Our Team
-  Careers
-  Contact
+  <footer>
+    <div class="container footer-section d-flex flex-column flex-lg-row justify-content-between">
+      <div class="logo">
+        <img src="./images/logo.svg" alt="shortly_logo" class="logo-icon-00">
+      </div>
+      <section class="footer-nav d-flex flex-column flex-lg-row">
+        <div class="features">
+          <h5 class="foot-title">Features</h5>
+          <p class="foot-content">Link Shortening</p>
+          <p class="foot-content">Branded Links</p>
+          <p class="foot-content">Analytics</p>
+        </div>
+        <div class="resources">
+          <h5 class="foot-title">Resources</h5>
+          <p class="foot-content">Blog</p>
+          <p class="foot-content">Developers</p>
+          <p class="foot-content">Support</p>
+        </div>
+        <div class="company">
+          <h5 class="foot-title">Company</h5>
+          <p class="foot-content">About</p>
+          <p class="foot-content">Our Team</p>
+          <p class="foot-content">Careers</p>
+          <p class="foot-content">Contact</p>
+        </div>
+      </section>
+      <section class="social-media-icons d-flex">
+        <div class="fb media-icon">
+          <img src="./images/icon-facebook.svg" alt="">
+        </div>
+        <div class="tweet media-icon">
+          <img src="./images/icon-twitter.svg" alt="">
+        </div>
+        <div class="pin media-icon">
+          <img src="./images/icon-pinterest.svg" alt="">
+        </div>
+        <div class="insta media-icon">
+          <img src="./images/icon-instagram.svg" alt="">
+        </div>
+        
+      </section>
+    </div>
+  </footer>
 
   <script src="./script.js"></script>
 </body>

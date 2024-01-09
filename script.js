@@ -33,6 +33,6 @@ async function shorten(url){
 
 
 btn.addEventListener('click', ()=>{
-    link.classList.add('short-link');
+    link.style.display = 'block';
     shorten(box.value)
 })

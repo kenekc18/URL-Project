@@ -74,7 +74,6 @@ form{
 
 .purple-form{
     padding:12px 0;
-    display:flex;
     justify-content: center;
 }
 
@@ -105,15 +104,15 @@ form input{
 .short-link{
     display: block;
     background-color: #fff;
-    margin:15px 0;
-    padding:3px 17px;
-    display: flex;
+    margin: 0.8rem 0;
+    padding: 1rem 0.8rem;
     justify-content: space-between;
     align-items: center;
 }
 
-.api-link{
-    margin-right:35px;
+
+.old-link a{
+    color:black;
 }
 
 .btn-link .btn{
@@ -126,19 +125,8 @@ form input{
     height:8px;
     position:absolute;
     z-index:1;
-    top:50%;
+    top:62%;
     left:16px;
-}
-
-.next-line{
-    background-color: hsl(180, 66%, 49%);
-    width: 8px;
-    height:78%;
-    position:absolute;
-    z-index: 1;
-    left:49%;
-    top:27%;
-
 }
 
 .card-section{
@@ -146,17 +134,37 @@ form input{
     padding:20px 0;
 }
 
+.card-section p{
+    font-size:0.85rem;
+}
+
 .card{
-    padding:36px;
-    padding-top:80px;
+    padding: 1rem 1.2rem;
+    padding-top:3.5rem;
     margin:0 15px;
     z-index:100;
+}
+
+.card-title{
+    font-weight: 700;
+}
+
+#brand{
+    margin-bottom:4.5rem;
+}
+
+#records{
+   margin-top: 2.5rem;
+   margin-bottom: 1.8rem;
+}
+
+#customize{
+    margin-top: 4.5rem;
 }
 
 .txt-box{
     padding:30px 0;
 }
-
 
 .logo-icon img{
     width:48px;
@@ -176,11 +184,89 @@ form input{
     align-items: center;
 }
 
+.next-line{
+    background-color: hsl(180, 66%, 49%);
+    width: 8px;
+    height:64%;
+    position:absolute;
+    z-index: 1;
+    left:48%;
+    top:27%;
+}
+
+.purple-section{
+    background:  hsl(257, 27%, 26%);
+    background-image: url(./images/bg-boost-desktop.svg);
+    background-position:25px bottom ;
+    color:#fff;
+    height: 13rem;
+}
+
+.purple-section .btn{
+    color:#fff;
+    background: rgb(71, 194, 216);
+    padding: 8px 5px;
+    width:150px;
+    border-radius:18px;
+}
+
+footer{
+    background: hsl(260, 8%, 14%);
+}
+
+.logo-icon-00{
+    filter: brightness(0) invert(1);
+}
+
+@media(max-width:768px){
+    .btn-form{
+        width:100%;
+        margin:0;
+        margin-top: 15px;
+    }
+
+    form input{
+        width:100%;
+    }
+
+    .purple-form{
+        padding:1.5rem;
+    }
+
+    #working-img{
+        width:100%;
+    }
+
+    .grey-area {
+        padding-top: 4rem;
+    }
+
+    .card{
+        margin:0;
+        margin:1.5rem 0.8rem;
+    }
+
+    .logo-icon{
+        left:41%;
+    }
+    /* #brand{
+        margin-bottom:0;
+    }
+    
+    #records{
+       margin:0;
+    }
+    
+    #customize{
+        margin-top:0;
+    } */
+}
+
 
 
 @media(max-width:500px){
     #working-img{
-        width:500px;
+        width:100%;
     }
 
     .btn{
@@ -206,6 +292,10 @@ form input{
     #p-form{
         width:80%;
         top: -103px;
+    }
+
+    .purple-form{
+        padding:0.5rem;
     }
 
     form input{
