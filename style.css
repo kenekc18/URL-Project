@@ -40,6 +40,11 @@ p{
     font-size: 3.2rem;
 }
 
+.hero-btn{
+    background: rgb(71, 194, 216);
+    color:#fff;
+}
+
 #logo{
     width:100px;
 }
@@ -73,6 +78,7 @@ form{
 }
 
 .btn-form{
+    background: rgb(71, 194, 216);
     color:#fff;
     margin:0 18px;
     width: 12%;
@@ -209,8 +215,66 @@ footer{
     background: hsl(260, 8%, 14%);
 }
 
+.footer-section{
+    padding:4rem 0;
+}
+
+.foot-title{
+    color:#fff;
+    font-weight: 600;
+}
+
+.sub_section{
+    margin:0 2.5rem;
+}
+
+.sub_section a{
+    text-decoration: none;
+}
+
 .logo-icon-00{
     filter: brightness(0) invert(1);
+}
+
+.media-icon{
+    margin:0 0.8rem;
+}
+
+@media(max-width:990px){
+    .footer-section{
+        margin:0 auto;
+        max-width: 14.5rem;
+    }
+
+    form input{
+        width:100%;
+    }
+
+    .btn-form{
+        width:100%;
+        margin: 0;
+        margin-top: 15px 
+    }
+
+    .purple-form{
+        padding: 1.5rem;
+    }
+
+    .sub_section{
+        margin:1.2rem 0;
+    }
+
+    .card{
+        margin:1rem 0;
+    }
+
+    .logo-icon-00{
+        margin-bottom:1.2rem;
+    }
+
+    .foot-title{
+        margin-bottom: 1.4rem;
+    }
 }
 
 @media(max-width:768px){
